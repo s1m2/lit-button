@@ -1,0 +1,33 @@
+node_modules
+dist
+lib
+test
+tsconfig.tsbuildinfo
+tsconfig.build.tsbuildinfo
+config/.local.env
+.eslintcache
+.tmp_k8s
+.env
+.DS_Store
+npm-debug.log*
+.idea
+*.iml
+
+# storybook build folder
+storybook-static*
+
+# lerna
+lerna-debug.log
+
+# cypress snapshots
+**/*.actual.png
+**/*.diff.png
+snapshots
+comparison
+diff
+build-storybook.log*
+
+#kitchen-sinks
+**/.angular
+stats.html
+stats.json

@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "ES2019",
+        "module": "ES2020",
+        "lib": [
+            "es2020",
+            "DOM",
+            "DOM.Iterable"
+        ],
+        "sourceMap": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "strict": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "plugins": [
+            {
+                "name": "ts-lit-plugin",
+                "strict": true
+            }
+        ]
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": []
+}
