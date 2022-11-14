@@ -35,18 +35,18 @@ export class McButton extends LitElement {
     `;
 
     public label = "";
-    public btnType = "primary"
+    public buttonType = "primary";
 
     // Get the properties 
     static get properties(): PropertyDeclarations {
         return {
             label: { type: String },
-            btnType: { type: String }
+            buttonType: { type: String }
         }
     }
 
     render(): TemplateResult {
-        return html`<button class="button--${this.btnType}">${this.label}</button>`
+        return html`<button class="button--${this.buttonType}">${this.label}</button>`;
     }
 }
 
